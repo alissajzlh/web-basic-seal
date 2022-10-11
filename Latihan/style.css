@@ -38,3 +38,32 @@ input[type=submit] {
 div {
     padding: 22px;
   }
+
+/* navbar */
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darksalmon;
+  }
+  
+.navbar li {
+    float: left;
+  }
+
+.active {
+    background-color: sienna;
+  }
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 26px;
+    text-decoration: none;
+  }
+  
+.navbar li a:hover {
+    background-color: tomato;
+  }
